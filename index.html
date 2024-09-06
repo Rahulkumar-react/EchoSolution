@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- favicon -->
     <link rel="apple-touch-icon" href="apple-touch-icon.html">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/logo.jpeg">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/Resolve6_SS_Logo1.png">
     <!-- Bootstrap v4.4.1 css -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
@@ -58,18 +58,47 @@
     <div id="pre-load">
         <div id="loader" class="loader">
             <div class="loader-container">
-                <div class='loader-icon'>
-                </div>
+                <style>
+                    .loader {
+                        width: 60px;
+                        aspect-ratio: 4;
+                        --_g: no-repeat radial-gradient(circle closest-side, #1d2c5c 90%, #0000);
+                        background:
+                            var(--_g) 0% 50%,
+                            var(--_g) 50% 50%,
+                            var(--_g) 100% 50%;
+                        background-size: calc(100%/3) 100%;
+                        animation: l7 1s infinite linear;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                    }
+    
+                    @keyframes l7 {
+                        33% {
+                            background-size: calc(100%/3) 0%, calc(100%/3) 100%, calc(100%/3) 100%
+                        }
+    
+                        50% {
+                            background-size: calc(100%/3) 100%, calc(100%/3) 0%, calc(100%/3) 100%
+                        }
+    
+                        66% {
+                            background-size: calc(100%/3) 100%, calc(100%/3) 100%, calc(100%/3) 0%
+                        }
+                    }
+                </style>
             </div>
         </div>
     </div>
     <!--Preloader area end here-->
     <!-- Main content Start -->
+     
     <div class="main-content">
         <!--Full width header Start-->
       
         <div class="full-width-header" style="background: linear-gradient(90deg, #5d85fa 0%, #3765ec 35%, #0f3cbd 100%);">
-            <!--Header Start-->  <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();" style="background-color: #f63c1f; color: white; padding: 10px;">
+            <!--Header Start-->  <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();" style=" color: white; padding: 10px;">
             *** FOR ENQUIRES - PLEASE CALL (226) 777-2622 ***
         </marquee>
             <header id="rs-header" class="rs-header style3" >
@@ -131,7 +160,7 @@
                         <div class="row-table ">
                             <div class="col-cell header-logo ">
                                 <div class="canvas-logo">
-                                    <a href="#Home"><img src="assets/logo.jpeg" class="w-50" class="h-40"
+                                    <a href="#Home"><img src="assets/images/Resolve6_SS_Logo1.png" class="w-50" class="h-40"
                                             alt="logo"></a>
                                 </div>
                             </div>
@@ -160,7 +189,7 @@
                                     <ul>
                                         <li class="humburger">
                                             <a id="nav-expander" class="nav-expander bar" href="#">
-                                                <div class="bar">
+                                                <div class="bar" style="color:black">
                                                     <span class="dot1"></span>
                                                     <span class="dot2"></span>
                                                     <span class="dot3"></span>
@@ -260,7 +289,7 @@
                         </a>
                     </div>
                     <ul class="nav-menu">
-                         <li><a href="#Home" style=" color:white; "> Home </a></li>
+                       
                         <li><a href="#Home" style=" color:white; "> Home </a></li>
                         <li><a href="#AboutUs" style=" color:white; "> About </a></li>
                         <!-- <li><a href="#servedo" style=" color:white; ">Who we serve</a></li> -->
@@ -994,7 +1023,7 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-12 col-sm-12 md-mb-10">
                             <div class="">
-                                <img src="assets/foot-logo.png" class="w-50 alt=" found" />
+                                <img src="assets/images/Resolve6_SS_Logo1.png" class="w-50 alt=" found" />
                             </div>
                             <div class="textwidget white-color pb-40">
                                 <p> Pioneers in IT Job Placements, Training and Information Technology Services since

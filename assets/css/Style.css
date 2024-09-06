@@ -2386,6 +2386,35 @@ body .search-modal .close:hover {
 .text-center .banner-border-line {
   margin: 0 auto 26px;
 }
+.nav-menu li a {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  padding: 0 0.5em;
+}
+
+/* .nav-menu li a::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(0deg, #5d85fa 0%, #3765ec);
+  z-index: -1;
+  transition: transform 1s ease-in-out;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+.nav-menu li a:hover::after {
+  transform: scaleX(1);
+}
+
+.nav-menu li a.active {
+  border-bottom: 2px solid #F4885A; /* 2px border only at the bottom for active state */
 
 /*----------------------------------------------
     33. Preloader CSS
