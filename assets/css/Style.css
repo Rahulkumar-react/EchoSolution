@@ -867,7 +867,7 @@ button:focus {
 
 .full-width-header .rs-header .topbar-area.style2 .row-table .header-quote .rs-address-area .address-list .info-icon i:before {
   font-size: 26px;
-  color: white;
+  color: rgb(19, 18, 18);
 }
 
 .full-width-header .rs-header .topbar-area.style2 .row-table .header-quote .rs-address-area .address-list .info-content {
